@@ -12,3 +12,7 @@ to install : 'pip install lxml'
 # requests
 
 to install : 'pip install requests'
+
+# Beautiful Soup
+
+to install : 'pip install bs4'
