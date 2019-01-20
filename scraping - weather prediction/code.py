@@ -8,7 +8,7 @@ soup=BeautifulSoup(response.content, 'html.parser' )
 
 seven_day=soup.find(id="seven-day-forecast")
 forecast_items = seven_day.find_all(class_="tombstone-container")
-#tonight=forecast_items[2]
+
 print forecast_items
 
 'period = tonight.find(class_="period-name").get_text()
