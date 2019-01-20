@@ -1,7 +1,7 @@
 from lxml import html
 import requests
 
-#get to retrieve the web page with our data, parse it using the html module and save the results in tree
+#get to retrieve the web page with our data
 
 page = requests.get('http://econpy.pythonanywhere.com/ex/001.html')
 tree = html.fromstring(page.content)
