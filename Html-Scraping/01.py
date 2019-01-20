@@ -12,7 +12,7 @@ XPath is a way of locating information in structured documents such as HTML or X
 
 #This will create a list of buyers:
 buyers = tree.xpath('//div[@title="buyer-name"]/text()')
-#This will create a list of prices
+
 prices = tree.xpath('//span[@class="item-price"]/text()')
 
 print "buyers:",buyers
