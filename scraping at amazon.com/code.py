@@ -5,6 +5,7 @@ book=raw_input("Enter the book name :")
 print "........................Top results at amazon.com......................"
 
 response=requests.get("https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Dstripbooks-intl-ship&field-keywords="+book)
+
 #print response.status_code 
 #print response.content
 
